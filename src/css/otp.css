@@ -1,0 +1,81 @@
+/* otp.css
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.otp {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 200px;
+  margin-left: 200px;
+  width: 800px;
+  text-align: center;
+}
+
+.tp {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.ot {
+  background-color: #4CAF50;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 18px;
+}
+
+.ot:hover {
+  background-color: #45a049;
+} */
+/* otp.css */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 350px;
+}
+
+.otp {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.tp {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  width: 300px;
+}
+
+.ot {
+  padding: 10px 20px;
+  background-color: #189538;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 100px;
+}
+
+.ot:hover {
+  background-color: #0056b3;
+}

@@ -1,0 +1,69 @@
+/* General styles */
+.imgg {
+  width: 100%;
+  height: auto;
+}
+
+.about {
+  color: #767e17;
+  font-size: 2rem; /* Adjusted font size for mobile */
+  text-align: center;
+}
+
+.dd {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.agri {
+  width: 50%;
+  max-width: 150px;
+  height: auto;
+  margin: 0 auto;
+}
+
+/* Mobile responsive styles */
+@media only screen and (max-width: 600px) {
+  .about {
+    font-size: 1.5rem; /* Further adjusted font size for smaller mobile screens */
+  }
+
+  .agri {
+    width: 70%;
+    max-width: 120px; /* Adjusted maximum width for smaller mobile screens */
+  }
+}
+@media screen {
+  .dd{
+    margin-top:20px ;
+    margin-bottom:20px;
+  }
+}
+/* For smaller screens */
+@media only screen and (max-width: 600px) {
+  .sec-container3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+    padding: 20px; 
+  }
+
+  .sec-container3 div {
+    margin-bottom: 10px; 
+    margin-right: 250px;
+  }
+
+  .sec-container3 h3 {
+    font-size: 1.5rem; 
+       margin-right: 250px;
+  }
+
+  .sec-container3 h1 {
+    font-size: 1.8rem; 
+    margin-right: 250px;
+
+  }
+}
+

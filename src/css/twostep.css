@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#main-site {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.glass {
+    max-width: 400px;
+    width: 90%;
+    padding: 40px;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+}
+
+.content {
+    text-align: center;
+}
+
+.two {
+    font-family: 'Poppins', sans-serif;
+    font-size: 28px;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.description, .phone-number {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    color: #ddd;
+    margin-bottom: 15px;
+}
+
+.otp-form {
+    margin-top: 30px;
+}
+
+.form-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    color: #ddd;
+    margin-bottom: 15px;
+}
+
+.otp-inputs {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.otp-input {
+    width: 50px;
+    height: 50px;
+    margin: 0 5px;
+    font-size: 22px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: transparent;
+    color: #fff;
+}
+
+.verify-btn {
+    display: block;
+    width: 100%;
+    padding: 12px 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    color: #fff;
+    background-color: #fca311;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.verify-btn:hover {
+    background-color: #ffbd59;
+}
+
+.resend-call {
+    margin-top: 20px;
+}
+
+.resend-text, .action-links {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: #ddd;
+}
+
+.action-links .link {
+    color: #fca311;
+    text-decoration: none;
+}
+
+.action-links .link-divider {
+    margin: 0 10px;
+    color: #ddd;
+}

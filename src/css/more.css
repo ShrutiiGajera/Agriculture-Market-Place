@@ -1,0 +1,41 @@
+.caard {
+    margin-bottom: 20px;
+    width: 20rem;
+  }
+  .caard-img-top {
+    width: 200px;
+    height: 200px;
+    align-self: center;
+  }
+.row{
+    margin-top: 20px;
+    text-align: center;
+}
+.caard-img-top{
+    width: 310px;
+}
+.tometo{
+    font-size: 20px;
+    font-weight: bold;
+}
+.more{
+  margin-left: 650px;
+  height: 50px;
+  width: 100px;
+  border: none;
+  background-color: rgb(255, 106, 0);
+  color: white;
+}
+.veg{
+  font-size: 30px;
+  color: black;
+  font-family:'poppins';
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+
+}
+
+.show-cart li {
+    display: flex;
+  }

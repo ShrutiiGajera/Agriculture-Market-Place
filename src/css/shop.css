@@ -1,0 +1,66 @@
+.show-cart li {
+  display: flex;
+}
+
+.caard {
+  margin-bottom: 20px;
+  width: 20rem;
+}
+
+.caard-img-top {
+  width: 200px;
+  height: 200px;
+  align-self: center;
+}
+
+.row {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.caard-img-top {
+  width: 310px;
+}
+
+.tometo {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.more {
+  margin-left: 650px;
+  height: 50px;
+  width: 100px;
+  border: none;
+  background-color: rgb(255, 106, 0);
+  color: white;
+}
+
+.veg {
+  font-size: 30px;
+  color: black;
+  font-family: 'poppins';
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+
+}
+.cart{
+  height: 50px;
+  width: 140px;
+  background-color: rgb(0, 150, 0);
+  border-radius:5px;
+  border: none;
+  color: #fff;
+  font-weight: bold;
+  margin-right: 20px;
+}
+.cartt{
+  height: 50px;
+  width: 140px;
+  background-color: rgb(211, 0, 0);
+  font-weight: bold;
+  border-radius:5px;
+  border: none;
+  color: #fff;
+}

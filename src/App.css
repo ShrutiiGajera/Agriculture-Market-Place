@@ -1,0 +1,731 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  overflow-x: hidden;
+}
+
+.nav {
+  margin: 0 auto;
+  display: flex;
+  list-style: none;
+  margin-top: 15px;
+}
+
+.navbar {
+  display: flex;
+  list-style: none;
+  background-color: rgb(32, 151, 64);
+}
+
+.nav-link:hover {
+  color: #E54925 !important;
+}
+
+.nav-link {
+  color: #fff !important;
+  width: 100px;
+  height: 50px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.nav-link:hover {
+  color: #E54925;
+}
+
+.nav-item {
+  padding: 5px;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+h2 {
+  font-family: "Covered By Your Grace", cursive;
+  color: #EEC044;
+  font-size: 40px;
+text-align: center;
+}
+
+.main-container {
+  background-image: url('../src/images/mainbg.png');
+  height: 810px;
+  width: 100%;
+}
+
+.sec-container2 {
+  background-image: url('./images/mainbg2.png');
+  height: 700px;
+  width: 100%;
+}
+
+.sec-container3 {
+  background-image: url('./images/mainbg3.png');
+  height: 700px;
+  width: 100%;
+}
+
+.sec-container4 {
+  background-image: url('./images/mainbg4.png');
+  height: 700px;
+  width: 100%;
+}
+
+.sec-container5 {
+  background-image: url('./images/mainbg5.png');
+  height: 700px;
+  width: 100%;
+}
+
+.sec-container6 {
+  background-image: url('./images/mainbg6.png');
+  height: 700px;
+  width: 100%;
+}
+
+h1 {
+  font-size: 120px;
+  padding-left: 300px;
+  font-family: "Covered By Your Grace", cursive;
+  font-weight: bolder;
+  color: #ffffff;
+}
+
+h3 {
+  padding-left: 300px;
+  font-family: 'Your Grace';
+  color: #ffffff;
+}
+
+h5 {
+  padding-left: 300px;
+  font-family: 'Your Grace';
+  color: #ffffff;
+}
+
+.main-container img {
+  margin-left: 700px;
+}
+
+.cardd {
+  margin-left: 200px;
+  background-color: #ffffff;
+  height: 264px;
+  width: 350px;
+  transform: translateY(-25%);
+  border-radius: 30px;
+  border: 2px;
+  box-shadow: 10px 10px 10px 1px #363030;
+}
+
+.cardd img {
+  height: 90px;
+  width: 90px;
+}
+
+.ag {
+  height: 100px;
+  width: 210px;
+}
+
+.fe {
+  text-align: center;
+  color: #EEC044;
+  font-family: "Covered By Your Grace", cursive;
+}
+
+h6 {
+  text-align: center;
+  font-size: 24px;
+}
+
+.card {
+  border: none;
+  width: 1200px;
+  height: 603.19px;
+  margin: 0 auto;
+}
+
+.t1 {
+  width: 550px;
+  height: 601px;
+  left: 15px;
+  border-radius: 50%
+}
+
+.t2 {
+  transform: translateY(-50%);
+  border-radius: 50%;
+  border: 15px;
+  border-style: solid;
+  border-color: #ffffff;
+}
+
+.card-titleee {
+  color: #000000;
+  font-size: 48px;
+  padding-left: 200px;
+}
+.card-titleeee{
+  padding-right: 200px;
+  color: #000000;
+  font-size: 48px;
+}
+.ourrr{
+    text-align: center;
+}
+
+.there {
+  color: #4BAF47;
+  font-size: 26px;
+}
+
+.are {
+  color: gray;
+}
+
+h4 {
+  margin-left: 200px;
+  transform: translateY(-140px);
+}
+
+.link-button {
+  text-decoration: none;
+  color: #fff;
+}
+
+.link-button:hover {
+  text-decoration: none;
+  color: #000000;
+}
+
+.btn1 {
+  background-color: rgb(11, 154, 11);
+  margin-left: 200px;
+  width: 200px;
+  height: 50px;
+  transform: translateY(-190%);
+  border: none;
+}
+
+.btn1:hover {
+  background: #EEC044;
+  color: #061161;
+  transition: 0.5s;
+}
+
+#grow {
+  padding-left: 80px;
+  transform: translateY(-50px);
+  margin-right: 300px;
+}
+
+#grows {
+  padding-left: 450px;
+  transform: translateY(-175px);
+  margin-left: 100px;
+}
+
+.vv2 {
+  transform: translateY(-110px);
+  margin-right: 200px;
+}
+
+.vv1 {
+  transform: translateY(15px);
+  margin-right: 300px;
+}
+
+.offer {
+  margin-top: 200px;
+}
+
+.what {
+  font-size: 48px;
+  color: #1F1E17;
+  font-weight: bolder;
+  text-align: center;
+}
+
+#row1 {
+  margin-left: 70px;
+  margin-right: 70px;
+}
+
+.video {
+  height: 600px;
+  width: 100% !important;
+  margin-top: 100px;
+}
+
+#carouselExampleDark {
+  height: 350px;
+  width: 100%;
+  background-color: #F8F7F0;
+}
+
+.carousel-innerr {
+  padding-top: 150px;
+}
+
+.carousel-innerr img {
+  height: 150px;
+  width: 150px;
+  margin-left: 1100px;
+}
+
+.sn {
+  font-size: 30px;
+  text-align: left;
+  font-weight: bolder;
+  color: #2C5364;
+}
+
+.sp {
+  font-size: 20px;
+  text-align: left;
+  color: #71a1b6;
+}
+
+.card-last {
+  margin-top: 100px;
+  width: 100%;
+}
+
+.cardd-last img {
+  width: 699px;
+  margin-left: 100px;
+}
+
+.b2 {
+  font-size: 40px;
+  color: #1F1E17;
+  font-weight: bolder;
+}
+
+.b1 {
+  font-size: 24px;
+  color: #1F1E17;
+  font-weight: bolder;
+}
+
+.b3 {
+  padding-left: 50px;
+}
+
+
+.pg-footer {
+  font-family: 'Roboto', sans-serif;
+  background-color: #061700;
+  margin-top: 100px;
+}
+
+
+.footer {
+  background-color: rgb(32, 151, 64);
+  color: #fff;
+}
+
+.footer-wave-svg {
+  background-color: transparent;
+  display: block;
+  height: 30px;
+  position: relative;
+  top: -1px;
+  width: 100%;
+}
+
+.footer-wave-path {
+  fill: #fffff2;
+}
+
+.footer-content {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1230px;
+  padding: 40px 15px 450px;
+  position: relative;
+}
+
+.footer-content-column {
+  box-sizing: border-box;
+  float: left;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 100%;
+  color: #fff;
+}
+
+.footer-content-column ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+
+.footer-menu {
+  margin-top: 30px;
+}
+
+.footer-menu-name {
+  color: black;
+  font-size: 15px;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-family: 'Poppins';
+  text-align: left;
+}
+
+.footer-menu-list {
+  list-style: none;
+  margin-bottom: 0;
+  margin-top: 10px;
+  padding-left: 0;
+}
+
+.footer-menu-list li {
+  margin-top: 5px;
+}
+
+.footer-call-to-action-description {
+  color: #fffff2;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.footer-call-to-action-button:hover {
+  background-color: #fffff2;
+  color: #061700;
+}
+
+.button:last-of-type {
+  margin-right: 0;
+}
+
+.footer-call-to-action-button {
+  background-color: #061700;
+  border-radius: 21px;
+  color: #fffff2;
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 900;
+  letter-spacing: .1em;
+  line-height: 18px;
+  padding: 12px 30px;
+  margin: 0 10px 10px 0;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: background-color .2s;
+  cursor: pointer;
+  position: relative;
+}
+
+.footer-call-to-action {
+  margin-top: 30px;
+}
+
+.footer-call-to-action-title {
+  color: black;
+  font-size: 14px;
+  font-weight: 900;
+  letter-spacing: .1em;
+  line-height: 18px;
+  text-align: left;
+  text-transform: uppercase;
+  font-family: 'Poppins';
+}
+
+.footer-call-to-action-link-wrapper {
+  margin-bottom: 0;
+  margin-top: 10px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-call-to-action-link-wrapper a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-social-links {
+  bottom: 0;
+  height: 54px;
+  position: absolute;
+  right: 0;
+  width: 236px;
+}
+
+.footer-social-amoeba-svg {
+  height: 54px;
+  left: 0;
+  display: block;
+  position: absolute;
+  top: 0;
+  width: 236px;
+}
+
+.footer-social-amoeba-path {
+  fill: #061700;
+}
+
+.footer-social-link.linkedin {
+  height: 26px;
+  left: 3px;
+  top: 11px;
+  width: 26px;
+}
+
+.footer-social-link {
+  display: block;
+  padding: 10px;
+  position: absolute;
+}
+
+.hidden-link-text {
+  position: absolute;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  -webkit-clip-path: inset(0px 0px 99.9% 99.9%);
+  clip-path: inset(0px 0px 99.9% 99.9%);
+  overflow: hidden;
+  height: 1px;
+  width: 1px;
+  padding: 0;
+  border: 0;
+  top: 50%;
+}
+
+.footer-social-icon-svg {
+  display: block;
+}
+
+.footer-social-icon-path {
+  fill: #fffff2;
+  transition: fill .2s;
+}
+
+.footer-social-link.twitter {
+  height: 28px;
+  left: 62px;
+  top: 3px;
+  width: 28px;
+}
+
+.footer-social-link.youtube {
+  height: 24px;
+  left: 123px;
+  top: 12px;
+  width: 24px;
+}
+
+.footer-social-link.github {
+  height: 34px;
+  left: 172px;
+  top: 7px;
+  width: 34px;
+}
+
+.footer-copyright {
+  background-color: #061700;
+  color: #fff;
+  padding: 15px 30px;
+  text-align: center;
+}
+
+.footer-copyright-wrapper {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1200px;
+}
+
+.footer-copyright-text {
+  color: #fff;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 18px;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.footer-copyright-link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.logo {
+  height: 100px;
+  width: 200px;
+}
+
+.btn3 {
+  background-color: rgb(11, 154, 11);
+  margin-left: 200px;
+  width: 200px;
+  height: 50px;
+  color: #fff;
+  border: none;
+}
+
+.btn3:hover {
+  background: #EEC044;
+  color: #061161;
+  transition: 0.5s;
+}
+
+@media (min-width:320px) and (max-width:479px) {
+
+  .footer-content {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1230px;
+    padding: 40px 15px 1050px;
+    position: relative;
+  }
+}
+
+@media (min-width:480px) and (max-width:599px) {
+
+  .footer-content {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1230px;
+    padding: 40px 15px 1050px;
+    position: relative;
+  }
+}
+
+@media (min-width:600px) and (max-width: 800px) {
+
+  .footer-content {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1230px;
+    padding: 40px 15px 1050px;
+    position: relative;
+  }
+}
+
+@media (min-width: 760px) {
+  .footer-content {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1230px;
+    padding: 40px 15px 450px;
+    position: relative;
+  }
+
+  .footer-wave-svg {
+    height: 50px;
+  }
+
+  .footer-content-column {
+    width: 24.99%;
+  }
+}
+
+@media (max-width:567px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body,
+  html {
+    overflow-x: hidden;
+  }
+
+  h1 {
+    font-size: 70px;
+    font-family: "Covered By Your Grace", cursive;
+    color: #ffffff;
+    text-align: center;
+  }
+
+  h3 {
+    font-family: 'Your Grace';
+    color: #ffffff;
+  }
+
+  h5 {
+    font-family: 'Your Grace';
+    color: #ffffff;
+  }
+
+  .main-container {
+    background-image: url('../src/images/mainbg.png');
+    height: 810px;
+    width: 100%;
+  }
+
+  h2 {
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 768px) {
+  h1 {
+    font-size: 40px; 
+  }
+
+  .cardd {
+    width: 80%;
+  }
+
+  .card-titleee {
+    font-size: 24px;
+  }
+
+  .btn1 {
+    width: 150px;
+    height: 35px;
+    font-size: 12px;
+  }
+
+  .sn {
+    font-size: 20px;
+  }
+
+  .sp {
+    font-size: 14px; 
+  }
+
+  .b2 {
+    font-size: 24px;
+  }
+
+  .b1,
+  .b3 {
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .sec-container2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+    padding: 20px; 
+  }
+
+  .sec-container2 div {
+    margin-bottom: 10px; 
+    margin-right: 250px;
+  }
+
+  .sec-container2 h3 {
+    font-size: 1.5rem; 
+       margin-right: 250px;
+  }
+
+  .sec-container2 h1 {
+    font-size: 1.8rem; 
+    margin-right: 250px;
+
+  }
+  
+}

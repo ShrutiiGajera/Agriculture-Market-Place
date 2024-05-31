@@ -1,0 +1,116 @@
+.card2 img {
+    height: 260px;
+    width: 370px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.card-title2 {
+    font-size: 30px;
+    color: #000;
+    text-align: left;
+    padding-left: 150px;
+}
+
+.card-text {
+    text-align: center;
+}
+
+.disimg {
+    width: 500px;
+    height: 700px;
+}
+
+.m {
+    font-size: 100px;
+    color: #49A760;
+    font-family: 'Your Grace';
+    margin-right: 300px;
+}
+
+.grow {
+    text-align: center;
+    transform: translateY(-120px);
+    padding-left: 80px;
+}
+
+.dcimg {
+    height: 100px;
+    width: 100px;
+}
+
+.hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/dis10.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 500px;
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.hero-text {
+    text-align: left;
+    position: absolute;
+    padding-top: 400px;
+    padding-left: 55%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 20px;
+}
+
+.m2 {
+    font-size: 70px;
+    color: #F7C35F;
+    font-family: 'Your Grace';
+    transform: translateY(-50%);
+}
+
+.grow2 {
+    text-align: center;
+    transform: translateY(-90px);
+}
+
+.fresh {
+    background-image: url('../images/dis11.jpg');
+    height: 600px;
+    width: 900px;
+    margin: 0 auto;
+}
+
+.dis11 {
+    padding-top: 100px;
+    padding-left: 500px;
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+    color: #fff;
+}
+
+.btn4 {
+    width: 200px;
+    height: 50px;
+    background: #EEC044;
+    color: #061161;
+    border: none;
+    margin-left: 600px;
+}
+.ourrr{
+    text-align: center;
+}
+.btn4:hover {
+    transition: 0.5s;
+    background-color: rgb(11, 154, 11);
+    color: #000;
+}
+.disimg2{
+    width: 600px;
+    height: 700px;
+}
+.whatt{
+    font-family: 'poppins';
+    font-size: 30px;
+    font-weight: bold;
+}
